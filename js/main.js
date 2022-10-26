@@ -3,8 +3,10 @@ const cognomeUtente = prompt('Inserisci il tuo cognome:')
 const colorePreferito = prompt('Inserisci il tuo colore preferito:')
 
 
-// nome.innerHTML = nomeUtente
-// cognome.innerHTML = cognomeUtente
+nome.innerHTML = nomeUtente
+cognome.innerHTML = cognomeUtente
+colore.innerHTML = colorePreferito
+
 
 console.log('Primo progetto con JS')
 console.log('Il tuo nome è:' + ' ' + nomeUtente)
